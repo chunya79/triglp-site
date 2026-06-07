@@ -92,6 +92,47 @@ const translations = {
     footer_product:    "triGLP",
     footer_contact:    "Contact",
 
+    /* Testimonials */
+    testi_label:  "Real Results",
+    testi_h2:     "Proof in Every Drop.",
+
+    /* Timeline */
+    time_label:   "Your Journey",
+    time_h2:      "When Will You See Results?",
+    time_sub:     "Start today and experience the transformation in three phases.",
+    time_w1:      "Weeks 1–2",
+    time_t1:      "The Awakening",
+    time_p1_a:    "Reduced appetite and food cravings",
+    time_p1_b:    "More stable energy throughout the day",
+    time_p1_c:    "Improved sleep quality & recovery",
+    time_w2:      "Weeks 3–8",
+    time_t2:      "The Transformation",
+    time_p2_a:    "Significant fat loss without effort",
+    time_p2_b:    "Enhanced mental clarity & focus",
+    time_p2_c:    "Better digestive health and comfort",
+    time_w3:      "Weeks 9+",
+    time_t3:      "The New You",
+    time_p3_a:    "Sustained weight management",
+    time_p3_b:    "Optimised metabolic health",
+    time_p3_c:    "Complete lifestyle transformation",
+
+    /* Potency */
+    pot_abs_label: "More absorbed than highly hydrolysed whey protein — in just 2 hours.",
+
+    /* FAQ */
+    faq_label: "Got Questions?",
+    faq_h2:    "Frequently Asked Questions",
+    faq_q1:    "How do I take triGLP?",
+    faq_a1:    "Take 3–5 drops, 1 to 2 times daily. Place drops directly under the tongue and hold for 30–60 seconds for optimal sublingual absorption. Gently shake the bottle before each use. For best results, take consistently and avoid eating or drinking for a few minutes after each dose.",
+    faq_q2:    "Is triGLP all natural?",
+    faq_a2:    "Yes. triGLP is derived from the purest Norwegian Atlantic salmon, processed using our patented enzymatic hydrolysis technology. Every ingredient — including Organic Lemon Peel and Organic Ginger Root — meets the same strict purity standards. No antibiotics, no additives, non-GMO, and zero artificial fillers.",
+    faq_q3:    "Can I take triGLP if I am allergic to fish?",
+    faq_a3:    "Always consult your physician with medical questions. That said, triGLP is considered hypoallergenic — the peptide molecules are extremely small (measured in Daltons) and are largely unrecognisable to the body as traditional fish proteins. Many people with fish sensitivities tolerate triGLP well, but individual responses vary.",
+    faq_q4:    "What clinical research supports triGLP's claims?",
+    faq_a4:    "ORYGN's product claims are supported by published clinical studies evaluating salmon hydrolysate bioactive peptides. Outcomes assessed include BMI reduction, body fat loss, gut health markers, and energy levels at doses consistent with triGLP's formulation. All statements comply with FTC/FDA structure/function claim guidelines. Individual results may vary.",
+    faq_q5:    "What makes triGLP different from other salmon peptide products?",
+    faq_a5:    "Most salmon peptide products are processed into powders and taken at high daily doses with limited bioavailability. triGLP uses a patented extraction process that preserves bioactive peptides in their natural form, then delivers them sublingually — bypassing digestion for near-immediate absorption. This tri-pathway approach (GLP-1, GLP-2, and GIP) in a precision sublingual format is exclusive to ORYGN.",
+
     /* Opportunity page */
     opp_nav_home:     "Product",
     opp_eyebrow:      "The Opportunity",
@@ -217,6 +258,47 @@ const translations = {
     footer_opp:        "비즈니스 기회",
     footer_product:    "triGLP",
     footer_contact:    "문의",
+
+    /* Testimonials */
+    testi_label:  "실제 결과",
+    testi_h2:     "모든 방울에 담긴 증거.",
+
+    /* Timeline */
+    time_label:   "당신의 여정",
+    time_h2:      "언제 결과를 보게 될까요?",
+    time_sub:     "오늘 시작하여 세 단계로 변화를 경험하세요.",
+    time_w1:      "1–2주차",
+    time_t1:      "각성",
+    time_p1_a:    "식욕과 식탐 감소",
+    time_p1_b:    "하루 종일 안정된 에너지",
+    time_p1_c:    "수면 품질 및 회복 개선",
+    time_w2:      "3–8주차",
+    time_t2:      "변화",
+    time_p2_a:    "노력 없이 상당한 지방 감소",
+    time_p2_b:    "향상된 정신 명료성 및 집중력",
+    time_p2_c:    "더 나은 소화 건강 및 편안함",
+    time_w3:      "9주차 이후",
+    time_t3:      "새로운 나",
+    time_p3_a:    "지속적인 체중 관리",
+    time_p3_b:    "최적화된 대사 건강",
+    time_p3_c:    "완전한 라이프스타일 변화",
+
+    /* Potency */
+    pot_abs_label: "고가수분해 유청 단백질보다 단 2시간 만에 더 많이 흡수됩니다.",
+
+    /* FAQ */
+    faq_label: "궁금한 점이 있으신가요?",
+    faq_h2:    "자주 묻는 질문",
+    faq_q1:    "triGLP는 어떻게 복용하나요?",
+    faq_a1:    "하루 1~2회, 3~5방울씩 복용하세요. 최적의 설하 흡수를 위해 혀 아래에 방울을 직접 놓고 30~60초 동안 유지하세요. 사용 전에 병을 부드럽게 흔드세요. 최상의 결과를 위해 꾸준히 복용하고 복용 후 몇 분 동안 음식이나 음료를 피하세요.",
+    faq_q2:    "triGLP는 완전 천연인가요?",
+    faq_a2:    "네. triGLP는 특허받은 효소 가수분해 기술로 처리된 가장 순수한 노르웨이 대서양 연어에서 추출됩니다. 유기농 레몬 껍질과 유기농 생강 뿌리를 포함한 모든 성분이 동일한 엄격한 순도 기준을 충족합니다. 항생제 없음, 첨가물 없음, 비GMO, 인공 충전제 없음.",
+    faq_q3:    "생선 알레르기가 있어도 triGLP를 복용할 수 있나요?",
+    faq_a3:    "의학적 질문은 항상 의사와 상담하세요. 그렇지만 triGLP는 저알레르기성으로 간주됩니다 — 펩타이드 분자가 극히 작아(달톤 단위) 신체가 전통적인 생선 단백질로 인식하지 못합니다. 생선 민감증이 있는 많은 사람들이 triGLP를 잘 견디지만 개인 반응은 다를 수 있습니다.",
+    faq_q4:    "triGLP의 주장을 뒷받침하는 임상 연구는 무엇인가요?",
+    faq_a4:    "ORYGN의 제품 주장은 연어 가수분해물 바이오액티브 펩타이드를 평가한 발표된 임상 연구에 의해 뒷받침됩니다. 연구에서는 BMI 감소, 체지방 손실, 장 건강 지표, 에너지 수준 등을 triGLP 제형에 일관된 용량으로 평가했습니다. 모든 진술은 FTC/FDA 구조/기능 주장 지침을 준수합니다. 개인 결과는 다를 수 있습니다.",
+    faq_q5:    "triGLP는 다른 연어 펩타이드 제품과 무엇이 다른가요?",
+    faq_a5:    "대부분의 연어 펩타이드 제품은 분말로 처리되어 높은 일일 용량으로 섭취되며 생체이용률이 제한적입니다. triGLP는 특허받은 추출 공정을 사용하여 바이오액티브 펩타이드를 자연 형태로 보존한 후 설하 방식으로 전달하여 소화를 우회해 즉각적인 흡수를 제공합니다. 이 3가지 경로 접근법(GLP-1, GLP-2, GIP)의 정밀 설하 형식은 ORYGN에만 있습니다.",
 
     /* Opportunity page */
     opp_nav_home:     "제품",
