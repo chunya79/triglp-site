@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="triGLP – 3 pathways in one drop">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap');
+    </style>
+  </defs>
+  <!-- Drop outline: pointed tip at top, round base -->
+  <path d="M 60 6 C 60 6 96 58 96 82 A 36 36 0 0 1 24 82 C 24 58 60 6 60 6 Z"
+        stroke="#FE5000" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+  <!-- Inner C-curl -->
+  <path d="M 74 78 A 18 18 0 1 0 74 60"
+        stroke="#FE5000" stroke-width="3.5" fill="none"
+        stroke-linecap="round"/>
+  <!-- triGLP wordmark -->
+  <text x="60" y="118"
+        font-family="Poppins, sans-serif"
+        font-weight="600"
+        font-size="19"
+        fill="currentColor"
+        text-anchor="middle"
+        letter-spacing="0.5">
+    <tspan font-weight="400">tri</tspan><tspan font-weight="700">GLP</tspan>
+  </text>
+  <!-- TM -->
+  <text x="97" y="107"
+        font-family="Poppins, sans-serif"
+        font-weight="400"
+        font-size="8"
+        fill="currentColor">™</text>
+  <!-- Tagline -->
+  <text x="60" y="133"
+        font-family="Poppins, sans-serif"
+        font-weight="300"
+        font-size="7.5"
+        fill="currentColor"
+        text-anchor="middle"
+        letter-spacing="1"
+        opacity="0.7">3 pathways in one drop</text>
+</svg>
