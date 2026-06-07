@@ -13,6 +13,11 @@ const translations = {
     hero_cta:      "Order Now",
     hero_secondary:"See How It Works",
 
+    innov_label:   "The Innovation",
+    innov_h2:      "Science Distilled Into One Drop.",
+    innov_sub:     "Where Nature Meets Clinical Precision.",
+    innov_body:    "triGLP is a proprietary bioactive peptide derived from sushi-grade Norwegian Atlantic salmon — double patent-protected, processed within hours of harvest, and delivered sublingually for near-immediate absorption. Pharma-level results. Nothing artificial.",
+
     prob_label:    "The Problem",
     prob_h2:       "Needles Suck.",
     prob_sub:      "There's a Better Way.",
@@ -132,6 +137,11 @@ const translations = {
     hero_sub:      "3가지 경로. 1방울. 6~8주 안에 임상적으로 입증된 결과.",
     hero_cta:      "지금 주문하기",
     hero_secondary:"작동 원리 알아보기",
+
+    innov_label:   "혁신",
+    innov_h2:      "과학을 한 방울에 담다.",
+    innov_sub:     "자연과 임상 정밀성의 만남.",
+    innov_body:    "triGLP는 스시 등급 노르웨이 대서양 연어에서 추출한 바이오액티브 펩타이드입니다 — 이중 특허 보호, 수확 후 수 시간 이내에 처리, 즉각적인 흡수를 위한 설하 방식 전달. 제약 수준의 결과. 인공 성분 없음.",
 
     prob_label:    "문제점",
     prob_h2:       "주사는 이제 그만.",
