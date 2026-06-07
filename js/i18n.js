@@ -136,9 +136,11 @@ const translations = {
     /* Opportunity page */
     opp_nav_home:     "Product",
     opp_eyebrow:      "The Opportunity",
-    opp_h1a:          "Ground Floor.",
-    opp_h1b:          "Global Timing.",
+    opp_h1a:          "ORYGN + KLOZR",
+    opp_h1b:          "Where building a business doesn't take away your vacations.",
     opp_sub:          "GLP-1 is one of the fastest-growing health categories in history. The natural alternative is barely on the map yet.",
+    comp_cta:         "Learn the Compensation Plan",
+    comp_body2:       "Whether you're just starting out or scaling a community, the ORYGN plan helps you earn more as you help others transform.",
 
     mkt_label:        "The Market",
     mkt_h2:           "A $100 Billion Category.",
@@ -336,9 +338,11 @@ const translations = {
     /* Opportunity page */
     opp_nav_home:     "제품",
     opp_eyebrow:      "비즈니스 기회",
-    opp_h1a:          "선점의 기회.",
-    opp_h1b:          "글로벌 타이밍.",
+    opp_h1a:          "ORYGN + KLOZR",
+    opp_h1b:          "사업을 구축하면서도 휴가를 빼앗기지 않는 곳.",
     opp_sub:          "GLP-1은 역사상 가장 빠르게 성장하는 건강 카테고리 중 하나입니다. 천연 대안은 아직 시작 단계에 불과합니다.",
+    comp_cta:         "보상 플랜 알아보기",
+    comp_body2:       "시작 단계든 커뮤니티를 확장하든, ORYGN 플랜은 더 많이 도울수록 더 많이 벌 수 있게 합니다.",
 
     mkt_label:        "시장",
     mkt_h2:           "1,000억 달러 규모의 시장.",

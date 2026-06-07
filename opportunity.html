@@ -57,17 +57,13 @@
 
     <div class="container">
       <div class="hero-content">
-        <div class="hero-eyebrow fade-up" data-i18n="opp_eyebrow">The Opportunity</div>
-        <h1 class="fade-up">
-          <span data-i18n="opp_h1a">Ground Floor.</span>
-          <span data-i18n="opp_h1b">Global Timing.</span>
+        <h1 class="fade-up opp-hero-h1">
+          <span data-i18n="opp_h1a">ORYGN + KLOZR</span>
+          <span class="opp-hero-sub" data-i18n="opp_h1b">Where building a business doesn't take away your vacations.</span>
         </h1>
-        <p class="hero-sub fade-up" data-i18n="opp_sub">
-          GLP-1 is one of the fastest-growing health categories in history. The natural alternative is barely on the map yet.
-        </p>
         <div class="hero-ctas fade-up">
-          <a href="#join" class="btn btn-primary" data-i18n="join_cta">Get in Touch</a>
-          <a href="#how" class="btn btn-outline" data-i18n="how_label">How It Works</a>
+          <a href="#comp" class="btn btn-primary" data-i18n="comp_cta">Learn the Compensation Plan</a>
+          <a href="#join" class="btn btn-outline" data-i18n="join_cta">Get in Touch</a>
         </div>
       </div>
     </div>
@@ -191,34 +187,30 @@
   </section>
 
   <!-- ── Compensation Plan ── -->
-  <section class="section" style="background:var(--black);" aria-label="Compensation Plan">
+  <section class="section comp-section" id="comp" aria-label="Compensation Plan" style="background:var(--black);">
     <div class="container">
       <div class="solution-intro fade-up">
         <p class="section-label" data-i18n="comp_label">ORYGN Compensation Plan</p>
         <h2 data-i18n="comp_h2">Simple. Generous. Sustainable.</h2>
         <div class="orange-line-center"></div>
-        <p data-i18n="comp_body">We built our compensation structure to reward real influence, genuine referrals, and long-term customer value — not loopholes or hype. Whether you're just starting out or scaling a community, the ORYGN plan helps you earn more as you help others transform.</p>
       </div>
-      <div class="stats-grid stagger" style="margin-top:3rem;">
-        <div class="stat-card fade-up">
-          <span class="stat-number" style="font-size:2rem;" data-i18n="comp_s1_icon">🏆</span>
-          <span class="stat-label" data-i18n="comp_s1">Leadership Bonuses</span>
-          <span class="stat-sub" data-i18n="comp_s1_body">Rewarded as your team and influence grows</span>
+      <div class="comp-layout stagger">
+        <!-- Left: image with comp elements overlaid -->
+        <div class="comp-image-block fade-up">
+          <img src="images/Breakout of Pharma.png" alt="" aria-hidden="true" class="comp-bg-img">
+          <div class="comp-overlay-text">
+            <div data-i18n="comp_s1">Leadership Bonuses</div>
+            <div data-i18n="comp_s2">Customer Rewards</div>
+            <div data-i18n="comp_s3">Simple, Predictable Payouts</div>
+          </div>
         </div>
-        <div class="stat-card fade-up">
-          <span class="stat-number" style="font-size:2rem;" data-i18n="comp_s2_icon">🔄</span>
-          <span class="stat-label" data-i18n="comp_s2">Customer Rewards</span>
-          <span class="stat-sub" data-i18n="comp_s2_body">Earn on every repeat order your customers place</span>
-        </div>
-        <div class="stat-card fade-up">
-          <span class="stat-number" style="font-size:2rem;" data-i18n="comp_s3_icon">💰</span>
-          <span class="stat-label" data-i18n="comp_s3">Predictable Payouts</span>
-          <span class="stat-sub" data-i18n="comp_s3_body">Clear, achievable, and aligned with real-world success</span>
-        </div>
-        <div class="stat-card fade-up">
-          <span class="stat-number" style="font-size:2rem;" data-i18n="comp_s4_icon">🔁</span>
-          <span class="stat-label" data-i18n="comp_s4">Residual Income</span>
-          <span class="stat-sub" data-i18n="comp_s4_body">Health is a subscription — customers who see results keep ordering</span>
+        <!-- Right: description -->
+        <div class="comp-desc fade-up">
+          <h3 data-i18n="comp_h2">Simple. Generous. Sustainable.</h3>
+          <p data-i18n="comp_body">We built our compensation structure to reward real influence, genuine referrals, and long-term customer value — not loopholes or hype. Every part of the plan was created to be clear, achievable, and aligned with real-world success.</p>
+          <p style="margin-top:1rem;" data-i18n="comp_body2">Whether you're just starting out or scaling a community, the ORYGN plan helps you earn more as you help others transform.</p>
+          <a href="https://embracehealth.orygn.co/" target="_blank" rel="noopener"
+             class="btn btn-primary" style="margin-top:2rem;" data-i18n="comp_cta">Learn the Compensation Plan</a>
         </div>
       </div>
     </div>
