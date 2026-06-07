@@ -1,39 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="triGLP – 3 pathways in one drop">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 272" role="img" aria-label="triGLP — 3 pathways in one drop">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&amp;display=swap');
     </style>
   </defs>
-  <!-- Drop outline: pointed tip at top, round base -->
-  <path d="M 60 6 C 60 6 96 58 96 82 A 36 36 0 0 1 24 82 C 24 58 60 6 60 6 Z"
-        stroke="#FE5000" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
-  <!-- Inner C-curl -->
-  <path d="M 74 78 A 18 18 0 1 0 74 60"
-        stroke="#FE5000" stroke-width="3.5" fill="none"
+
+  <!-- Solid orange filled teardrop — point at top, wide round base -->
+  <path d="M 100 14
+           C 68 56, 26 96, 26 148
+           A 74 74 0 0 0 174 148
+           C 174 96, 132 56, 100 14 Z"
+        fill="#FE5000"/>
+
+  <!-- White C-curl inside drop — opens to the right -->
+  <path d="M 124 107
+           C 118 94, 82 94, 76 124
+           C 76 154, 112 158, 124 145"
+        stroke="white"
+        stroke-width="10"
+        fill="none"
         stroke-linecap="round"/>
-  <!-- triGLP wordmark -->
-  <text x="60" y="118"
+
+  <!-- triGLP wordmark: tri=light, GLP=black weight -->
+  <text x="100" y="242"
         font-family="Poppins, sans-serif"
-        font-weight="600"
-        font-size="19"
-        fill="currentColor"
         text-anchor="middle"
-        letter-spacing="0.5">
-    <tspan font-weight="400">tri</tspan><tspan font-weight="700">GLP</tspan>
+        font-size="40">
+    <tspan font-weight="300" fill="#D8D8D8">tri</tspan><tspan font-weight="800" fill="#D8D8D8">GLP</tspan>
   </text>
-  <!-- TM -->
-  <text x="97" y="107"
+
+  <!-- TM superscript -->
+  <text x="168" y="222"
         font-family="Poppins, sans-serif"
-        font-weight="400"
-        font-size="8"
-        fill="currentColor">™</text>
-  <!-- Tagline -->
-  <text x="60" y="133"
-        font-family="Poppins, sans-serif"
+        font-size="10"
         font-weight="300"
-        font-size="7.5"
-        fill="currentColor"
+        fill="#D8D8D8">™</text>
+
+  <!-- Tagline -->
+  <text x="100" y="264"
+        font-family="Poppins, sans-serif"
         text-anchor="middle"
-        letter-spacing="1"
-        opacity="0.7">3 pathways in one drop</text>
+        font-size="13"
+        font-weight="400"
+        fill="#FE5000"
+        letter-spacing="0.3">3 pathways in one drop</text>
 </svg>
