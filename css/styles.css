@@ -561,6 +561,10 @@ p { color: var(--muted); font-weight: 300; font-size: 1.05rem; line-height: 1.8;
   align-items: flex-start;
   gap: 1rem;
 }
+.order-horiz-ctas .btn {
+  width: 100%;
+  text-align: center;
+}
 
 .order-note {
   font-size: 0.85rem;
