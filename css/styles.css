@@ -828,13 +828,19 @@ footer {
   line-height: 1.4;
 }
 
-/* ── Purity video ─────────────────────────────── */
-.purity-video {
-  border-radius: 2px;
+/* ── Purity image ─────────────────────────────── */
+.purity-img-wrap {
+  height: 100%;
+  min-height: 480px;
+}
+.purity-img {
   width: 100%;
-  display: block;
-  aspect-ratio: 16/9;
+  height: 100%;
+  min-height: 480px;
   object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+  display: block;
 }
 
 /* ── Bottle feature image (pathway section) ───── */
