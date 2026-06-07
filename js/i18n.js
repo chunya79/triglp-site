@@ -183,6 +183,8 @@ const translations = {
     comp_s2_body: "Earn on every repeat order your customers place",
     comp_s3:      "Predictable Payouts",
     comp_s3_body: "Clear, achievable, and aligned with real-world success",
+    comp_s4:      "Residual Income",
+    comp_s4_body: "Health is a subscription — customers who see results keep ordering",
 
     klozr_label:  "ORYGN + KLOZR",
     klozr_h2:     "Intelligent Brand Saturation.",
@@ -381,6 +383,8 @@ const translations = {
     comp_s2_body: "고객의 모든 반복 주문에서 수익 창출",
     comp_s3:      "예측 가능한 지급",
     comp_s3_body: "명확하고 달성 가능하며 실제 성공과 일치",
+    comp_s4:      "잔여 수입",
+    comp_s4_body: "건강은 구독입니다 — 결과를 경험한 고객은 계속 주문합니다",
 
     klozr_label:  "ORYGN + KLOZR",
     klozr_h2:     "지능형 브랜드 포화.",
