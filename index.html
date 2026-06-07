@@ -24,7 +24,7 @@
     </a>
 
     <div class="nav-links" role="list">
-      <a href="#science" data-i18n="nav_science" role="listitem">The Science</a>
+      <a href="#science" data-i18n="nav_science" role="listitem">Results</a>
       <a href="opportunity.html" data-i18n="nav_opportunity" role="listitem">Business Opportunity</a>
     </div>
 
@@ -40,38 +40,40 @@
     </div>
   </nav>
 
-  <!-- ── Hero ── -->
-  <section class="hero" aria-label="Hero">
-    <div class="hero-video-wrap" aria-hidden="true">
-      <video class="hero-video" autoplay muted loop playsinline preload="auto"
-             poster="images/A Drop of Science.png">
-        <source src="video/teaser.mp4" type="video/mp4">
-      </video>
-    </div>
+  <!-- ── Video hero (full screen, no text) ── -->
+  <section class="hero-video-section" aria-label="Introduction video">
+    <video autoplay muted loop playsinline preload="auto"
+           poster="images/A Drop of Science.png">
+      <source src="video/teaser.mp4" type="video/mp4">
+    </video>
+    <a href="#intro" class="hero-scroll-cue" aria-label="Scroll to product introduction">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+      <span>Discover</span>
+    </a>
+  </section>
 
-    <!-- Large drop watermark -->
-    <div class="hero-drop" aria-hidden="true">
+  <!-- ── Hero intro (below video) ── -->
+  <section class="hero-intro" id="intro" aria-label="Product introduction">
+    <div class="hero-intro-drop" aria-hidden="true">
       <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
-        <path d="M100 10 C100 10 180 110 180 155 A80 80 0 0 1 20 155 C20 110 100 10 100 10Z"
-              fill="white"/>
+        <path d="M100 10 C100 10 180 110 180 155 A80 80 0 0 1 20 155 C20 110 100 10 100 10Z" fill="white"/>
       </svg>
     </div>
-
     <div class="container">
-      <div class="hero-content">
-        <div class="hero-eyebrow fade-up" data-i18n="hero_eyebrow">ORYGN triGLP™</div>
-        <h1 class="fade-up">
-          <span data-i18n="hero_h1a">Pharma Results.</span>
-          <span data-i18n="hero_h1b">Natural Delivery.</span>
-        </h1>
-        <p class="hero-sub fade-up" data-i18n="hero_sub">
-          3 pathways. 1 drop. Clinically proven results in 6–8 weeks.
-        </p>
-        <div class="hero-ctas fade-up">
-          <a href="https://embrace-health.orygn.co/" target="_blank" rel="noopener"
-             class="btn btn-primary" data-i18n="hero_cta">Order Now</a>
-          <a href="#science" class="btn btn-outline" data-i18n="hero_secondary">See How It Works</a>
-        </div>
+      <div class="hero-eyebrow fade-up" data-i18n="hero_eyebrow">ORYGN triGLP™</div>
+      <h1 class="fade-up">
+        <span data-i18n="hero_h1a">Pharma Results.</span>
+        <span data-i18n="hero_h1b">Natural Delivery.</span>
+      </h1>
+      <p class="hero-sub fade-up" data-i18n="hero_sub">
+        3 pathways. 1 drop. Clinically proven results in 6–8 weeks.
+      </p>
+      <div class="hero-ctas fade-up">
+        <a href="https://embrace-health.orygn.co/" target="_blank" rel="noopener"
+           class="btn btn-primary" data-i18n="hero_cta">Order Now</a>
+        <a href="#science" class="btn btn-outline" data-i18n="hero_secondary">See How It Works</a>
       </div>
     </div>
   </section>
@@ -84,11 +86,11 @@
           <img src="images/A Drop of Science.png" alt="A drop of science — triGLP bioactive peptide" loading="lazy">
         </div>
         <div class="problem-content fade-up">
-          <p class="section-label" data-i18n="innov_label">The Innovation</p>
-          <h2 data-i18n="innov_h2">Science Distilled Into One Drop.</h2>
+          <p class="section-label" data-i18n="innov_label">Performance Aging</p>
+          <h2 data-i18n="innov_h2">Age Better. Perform Better.</h2>
           <div class="orange-line"></div>
           <p class="problem-sub" data-i18n="innov_sub">Where Nature Meets Clinical Precision.</p>
-          <p data-i18n="innov_body">triGLP is a proprietary bioactive peptide derived from sushi-grade Norwegian Atlantic salmon — double patent-protected, processed within hours of harvest, and delivered sublingually for near-immediate absorption. Pharma-level results. Nothing artificial.</p>
+          <p data-i18n="innov_body">triGLP is a proprietary, double patent-protected bioactive peptide derived from fresh sashimi-grade Norwegian Atlantic salmon — processed within hours of harvest using patented enzymatic hydrolysis, and delivered sublingually for near-immediate absorption. It supports "Performance Aging" — peak metabolic function as you age, targeting the root causes of metabolic decline: excess body fat, muscle loss, and gut dysfunction. Pharma-level results. Nothing artificial.</p>
         </div>
       </div>
     </div>
@@ -114,8 +116,9 @@
             <circle cx="24" cy="32" r="3" fill="currentColor"/>
           </svg>
           <p class="pathway-sub" data-i18n="sol_p1_sub">GLP-1 & GIP Activation</p>
-          <h3 data-i18n="sol_p1_title">The Appetite Whisperer</h3>
-          <p data-i18n="sol_p1_body">Enhanced metabolism and targeted fat burning — without the side effects of injectable GLP-1 drugs.</p>
+          <h3 data-i18n="sol_p1_title">Metabolic Fat Loss</h3>
+          <p data-i18n="sol_p1_body">triGLP activates GLP-1 and GIP receptors — the same pathways targeted by pharmaceutical drugs like Ozempic — naturally. Clinical trials show 6–7% BMI reduction driven by body fat alone (not water, not muscle), improved insulin sensitivity, and blood sugar reductions of 3–6%. No prescription. No injections.</p>
+          <div class="pathway-stat" data-i18n="sol_p1_stat">6–7% BMI reduction · 6–8 weeks · 2 published clinical studies</div>
         </div>
         <!-- Path 2 -->
         <div class="pathway-card fade-up">
@@ -124,9 +127,10 @@
             <path d="M24 8 C14 14 10 22 14 30 C18 38 30 38 34 30 C38 22 34 14 24 8Z" stroke="currentColor" stroke-width="2"/>
             <path d="M20 24 L24 28 L30 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <p class="pathway-sub" data-i18n="sol_p2_sub">GLP-2 Activation</p>
-          <h3 data-i18n="sol_p2_title">The Core Shield</h3>
-          <p data-i18n="sol_p2_body">Superior gut health, faster recovery, and muscle preservation during weight loss.</p>
+          <p class="pathway-sub" data-i18n="sol_p2_sub">GLP-2 & Muscle Protection</p>
+          <h3 data-i18n="sol_p2_title">Gut Health & Muscle Guard</h3>
+          <p data-i18n="sol_p2_body">GLP-2 activation supports the gut wall, improves nutrient absorption, and reduces gut inflammation. Stanford-published research confirms triGLP reduces inflammatory markers and improves gut barrier integrity. Simultaneously, triGLP inhibits activin A and myostatin — the proteins responsible for muscle breakdown — so you lose fat, not muscle.</p>
+          <div class="pathway-stat" data-i18n="sol_p2_stat">Stanford published · Leaky gut markers reduced · Muscle mass preserved</div>
         </div>
         <!-- Path 3 -->
         <div class="pathway-card fade-up">
@@ -134,9 +138,10 @@
           <svg class="pathway-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M24 6 L28 18 L40 18 L30 26 L34 38 L24 30 L14 38 L18 26 L8 18 L20 18Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
           </svg>
-          <p class="pathway-sub" data-i18n="sol_p3_sub">Anti-inflammatory & Antioxidant</p>
-          <h3 data-i18n="sol_p3_title">The Metabolic Optimizer</h3>
-          <p data-i18n="sol_p3_body">Whole-body cellular wellness — reduced inflammation markers and enhanced antioxidant expression.</p>
+          <p class="pathway-sub" data-i18n="sol_p3_sub">Anti-inflammatory & Energy</p>
+          <h3 data-i18n="sol_p3_title">Energy & Cellular Defence</h3>
+          <p data-i18n="sol_p3_body">triGLP upregulates HMOX-1 gene expression by 4.2x — a key antioxidant pathway — and FTH-1 by 3.8x, improving iron metabolism and oxygen use. Clinical studies show a 57% increase in anti-inflammatory markers, 9% reduction in oxidative stress, and 87% of participants reporting significant improvements in energy and vitality within 4 weeks.*</p>
+          <div class="pathway-stat" data-i18n="sol_p3_stat">87% energy improvement · 4.2x HMOX-1 upregulation · 15% less inflammation</div>
         </div>
       </div>
 
@@ -173,9 +178,9 @@
           <span class="stat-sub" data-i18n="res_s3_sub">in key markers</span>
         </div>
         <div class="stat-card fade-up">
-          <span class="stat-number" data-i18n="res_s4">100%</span>
-          <span class="stat-label" data-i18n="res_s4_label">Fat-Targeted Loss</span>
-          <span class="stat-sub" data-i18n="res_s4_sub">not water or muscle</span>
+          <span class="stat-number" data-i18n="res_s4">87%</span>
+          <span class="stat-label" data-i18n="res_s4_label">Energy Improvement</span>
+          <span class="stat-sub" data-i18n="res_s4_sub">reported within 4 weeks</span>
         </div>
       </div>
 
@@ -218,7 +223,11 @@
           </ul>
         </div>
         <div class="fade-up">
-          <img src="images/Purity Begins with the Source.png" alt="Purity begins with the source — Norwegian salmon" loading="lazy" style="border-radius:2px;">
+          <video class="purity-video" autoplay muted loop playsinline
+                 poster="images/Purity Begins with the Source.png">
+            <source src="video/triglp-teaser.mov" type="video/quicktime">
+            <source src="video/teaser.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
@@ -259,22 +268,6 @@
     </div>
   </section>
 
-  <!-- ── Additional images ── -->
-  <section class="section-sm" style="background:var(--navy);" aria-hidden="true">
-    <div class="container">
-      <div class="grid-3">
-        <img src="images/No Fillers.png" alt="No fillers" loading="lazy" style="border-radius:2px;" class="fade-up">
-        <img src="images/Processed Within Hours.png" alt="Processed within hours" loading="lazy" style="border-radius:2px;" class="fade-up">
-        <img src="images/A Drop of Science.png" alt="A drop of science" loading="lazy" style="border-radius:2px;" class="fade-up">
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Full-width absorption image ── -->
-  <section style="background:var(--black); padding:0; overflow:hidden;" aria-hidden="true">
-    <img src="images/Absorbtion Strength.png" alt="Maximum absorption strength" loading="lazy" style="width:100%; display:block; max-height:480px; object-fit:cover; object-position:center;">
-  </section>
-
   <!-- ── Order ── -->
   <section class="section section-order" id="order" aria-label="How to Order">
     <div class="container">
@@ -282,20 +275,20 @@
         <p class="section-label" data-i18n="ord_label">How to Order</p>
         <h2 data-i18n="ord_h2">Ready to Start?</h2>
         <div class="orange-line-center"></div>
-        <p data-i18n="ord_body">Click below to place your order. Prices are in USD. Delivery is approximately 10 business days. 3 bottles is approximately a 1 month supply.</p>
+        <p data-i18n="ord_body">Multiple product options available to suit your needs. Prices are in USD. Delivery is approximately 10 business days. Click below to view all options and place your order.</p>
 
         <div class="order-details">
           <div class="order-detail">
             <span class="order-detail-value" data-i18n="ord_v1">USD</span>
-            <span class="order-detail-label" data-i18n="ord_v1_label">Prices</span>
+            <span class="order-detail-label" data-i18n="ord_v1_label">Pricing</span>
           </div>
           <div class="order-detail">
             <span class="order-detail-value" data-i18n="ord_v2">~10</span>
             <span class="order-detail-label" data-i18n="ord_v2_label">Business days delivery</span>
           </div>
           <div class="order-detail">
-            <span class="order-detail-value" data-i18n="ord_v3">3 bottles</span>
-            <span class="order-detail-label" data-i18n="ord_v3_label">≈ 1 month supply</span>
+            <span class="order-detail-value" data-i18n="ord_v3">NZ · US · KR</span>
+            <span class="order-detail-label" data-i18n="ord_v3_label">Markets we ship to</span>
           </div>
         </div>
 
