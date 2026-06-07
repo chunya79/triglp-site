@@ -2,7 +2,7 @@
 
 const translations = {
   en: {
-    nav_science:     "Results",
+    nav_science:     "Real Science",
     nav_opportunity: "Business Opportunity",
     nav_order:       "Order Now",
 
@@ -169,7 +169,7 @@ const translations = {
   },
 
   ko: {
-    nav_science:     "임상 결과",
+    nav_science:     "실제 과학",
     nav_opportunity: "비즈니스 기회",
     nav_order:       "지금 주문하기",
 
