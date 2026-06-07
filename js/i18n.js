@@ -164,7 +164,13 @@ const translations = {
     how_s3_title:     "Build Recurring Income",
     how_s3_body:      "Health is a subscription. Customers who see results keep ordering. Your income grows with your community.",
 
-    prod_adv_body:    "triGLP is designed for consistency, not complexity — supporting real-world results that customers can feel and trust. That translates into confidence when sharing, strong retention, and natural repeat demand. Building a business is easier when the product does the work.",
+    prod_adv_label:   "The Product Advantage",
+    prod_adv_h2:      "Lead with a product that actually delivers.",
+    prod_adv_p1:      "Building a business is easier when the product does the work.",
+    prod_adv_body:    "triGLP is designed for consistency, not complexity — supporting real-world results that customers can feel and trust. That translates into confidence when sharing, strong retention, and natural repeat demand.",
+    now_sub2:         "Right place. Right time. Right brand.",
+    now_end:          "Your timing has never been better.",
+    why_end:          "This means you are stepping into a business engineered for longevity and profit.",
 
     why_label:   "Why ORYGN?",
     why_h2:      "Opportunity, Elevated.",
@@ -366,7 +372,13 @@ const translations = {
     how_s3_title:     "반복 수입 구축",
     how_s3_body:      "건강은 구독입니다. 결과를 경험한 고객은 계속 주문합니다. 커뮤니티와 함께 수입이 성장합니다.",
 
+    prod_adv_label:   "제품 강점",
+    prod_adv_h2:      "실제로 효과를 발휘하는 제품으로 앞서가세요.",
+    prod_adv_p1:      "제품이 일을 할 때 사업을 구축하기 더 쉽습니다.",
     prod_adv_body:    "triGLP는 복잡함이 아닌 일관성을 위해 설계되었습니다 — 고객이 느끼고 신뢰할 수 있는 실제 결과를 지원합니다. 이는 공유할 때의 자신감, 강한 고객 유지율, 자연스러운 반복 수요로 이어집니다.",
+    now_sub2:         "올바른 장소. 올바른 시간. 올바른 브랜드.",
+    now_end:          "지금이 가장 좋은 시기입니다.",
+    why_end:          "이는 장수와 수익을 위해 설계된 사업에 발을 들이는 것을 의미합니다.",
 
     why_label:   "왜 ORYGN인가요?",
     why_h2:      "격상된 기회.",

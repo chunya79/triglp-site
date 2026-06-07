@@ -843,6 +843,161 @@ footer {
   display: block;
 }
 
+/* ── Step numbers bright ─────────────────────── */
+.step-number-bright {
+  color: var(--orange) !important;
+  opacity: 1 !important;
+}
+
+/* ── Product Advantage ───────────────────────── */
+.prod-adv-label-bar {
+  background: #fbfbfb;
+  text-align: center;
+  padding: 1.8rem 2rem;
+}
+.prod-adv-label-bar h4 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 500;
+  color: #111;
+  letter-spacing: 0.02em;
+}
+.prod-adv-dark {
+  background-image: url('https://drerinoksol.orygn.co/assets/featuredProduct3-CAmrkDrW.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 5rem 0;
+}
+.prod-adv-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0.2) 100%);
+}
+.prod-adv-dark .container { position: relative; }
+.prod-adv-h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem) !important;
+  font-weight: 400 !important;
+  color: var(--white) !important;
+  letter-spacing: 0.01em !important;
+  margin-bottom: 1.5rem;
+}
+.prod-adv-h2 strong { font-weight: 700; }
+.prod-adv-dark p { color: rgba(255,255,255,0.75); font-size: 0.95rem; max-width: 480px; }
+.prod-adv-dark p strong { color: var(--white); }
+.prod-adv-img-wrap { display: flex; align-items: flex-end; justify-content: center; }
+.prod-adv-img {
+  max-height: 520px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.5));
+}
+
+/* ── Why ORYGN (light section) ───────────────── */
+.why-orygn-section {
+  background: #fbfbfb !important;
+  text-align: center;
+}
+.why-orygn-h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem) !important;
+  color: #111 !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+  margin-bottom: 0.8rem;
+}
+.why-orygn-sub {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 1.2rem;
+}
+.why-orygn-body {
+  color: #333 !important;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+}
+.why-orygn-bold {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111 !important;
+  margin: 1rem auto 3rem;
+  max-width: 600px;
+}
+.why-orygn-section .orange-line-center { background: var(--orange); }
+
+.why-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.why-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.why-icon-svg {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.why-icon-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.45em;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+/* ── KLOZR image ──────────────────────────────── */
+.klozr-img-wrap { display: flex; align-items: center; }
+.klozr-img {
+  width: 100%;
+  border-radius: 2px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+/* ── Why Now ──────────────────────────────────── */
+.why-now-section {
+  position: relative;
+  background-image: url('https://drerinoksol.orygn.co/assets/fishwall-tCMtOjcL.png');
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+.why-now-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.88);
+}
+.why-now-content {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 0;
+  text-align: center;
+}
+.why-now-content h2 { color: #111 !important; }
+.why-now-content .orange-line-center { margin: 1.5rem auto; }
+.why-now-sub {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #111 !important;
+  margin-bottom: 1rem;
+}
+.why-now-content p { color: #333 !important; max-width: 700px; margin: 0 auto 1rem; }
+.why-now-end {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #111 !important;
+  margin-top: 1.5rem;
+}
+
 /* ── Opportunity hero ────────────────────────── */
 .opp-hero-h1 span { display: block; }
 .opp-hero-h1 span:first-child {
