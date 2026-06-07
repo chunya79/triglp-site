@@ -909,49 +909,36 @@ footer {
 }
 
 .timeline-start {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 700;
   color: var(--white);
   margin-bottom: 2rem;
-  opacity: 0.9;
 }
 
 .timeline-phase-v {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.timeline-phase-v:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 2.2rem;
 }
 
 .timeline-weeks {
-  font-size: 0.82rem;
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
   font-weight: 700;
-  letter-spacing: 0.12em;
-  color: var(--orange);
-  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.01em;
   margin-bottom: 0.8rem;
+  line-height: 1.2;
 }
 .timeline-weeks span { color: var(--white); }
 
-.timeline-phase-v ul { list-style: none; }
-.timeline-phase-v li {
-  font-size: 0.95rem;
-  font-weight: 300;
-  color: rgba(255,255,255,0.72);
-  padding: 0.4rem 0;
-  padding-left: 1rem;
-  position: relative;
-  line-height: 1.5;
+.timeline-phase-v ul {
+  list-style: disc;
+  padding-left: 1.4rem;
 }
-.timeline-phase-v li::before {
-  content: '–';
-  position: absolute;
-  left: 0;
-  color: var(--orange);
+.timeline-phase-v li {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.8);
+  padding: 0.25rem 0;
+  line-height: 1.6;
 }
 
 .timeline-image img {
