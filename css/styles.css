@@ -1017,50 +1017,58 @@ footer {
   line-height: 1.4 !important;
 }
 
-/* ── Compensation Plan full-width ─────────────── */
-.comp-full-section {
+/* ── Compensation Plan ────────────────────────── */
+.comp-section {
   background: var(--navy);
 }
-.comp-full-header {
+.comp-header {
   text-align: center;
   padding: 4rem 2rem 2rem;
 }
-.comp-full-image-wrap {
+.comp-split {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  min-height: 420px;
+}
+.comp-img-col {
   position: relative;
-  width: 100%;
   overflow: hidden;
 }
-.comp-full-img {
+.comp-split-img {
   width: 100%;
-  height: 420px;
+  height: 100%;
+  min-height: 420px;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center top;
   display: block;
-  filter: brightness(0.6);
+  filter: brightness(0.55);
 }
-.comp-full-overlay {
+.comp-split-overlay {
   position: absolute;
   bottom: 2rem;
-  right: 3rem;
+  right: 2rem;
   text-align: right;
 }
-.comp-full-overlay div {
-  font-size: clamp(0.85rem, 1.6vw, 1.15rem);
+.comp-split-overlay div {
+  font-size: clamp(0.8rem, 1.4vw, 1rem);
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.9);
   margin: 0.5rem 0;
 }
-.comp-full-desc {
+.comp-text-col {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
-  padding: 3rem 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3rem 3rem 3.5rem;
 }
-.comp-full-desc > div:first-child { flex: 1; }
-.comp-full-desc > div:last-child { flex-shrink: 0; }
+.comp-text-col h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.comp-text-col p { font-size: 0.95rem; line-height: 1.8; }
 
 /* ── Bottle feature image (pathway section) ───── */
 .sol-bottle-feature {
@@ -1312,8 +1320,8 @@ footer {
   .potency-abs-label  { max-width: 100%; }
 
   .order-horiz { grid-template-columns: 1fr; gap: 2.5rem; }
-  .comp-full-desc { flex-direction: column; align-items: flex-start; }
-  .comp-full-img { height: 260px; }
+  .comp-split { grid-template-columns: 1fr; }
+  .comp-text-col { padding: 2rem 1.5rem; }
   .why-icons { grid-template-columns: 1fr; }
   .order-horiz-ctas { align-items: center; }
 

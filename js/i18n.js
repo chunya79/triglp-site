@@ -150,7 +150,7 @@ const translations = {
     mkt_s2:           "3",
     mkt_s2_label:     "High-demand markets we serve",
     mkt_s3:           "Day 1",
-    mkt_s3_label:     "Natural GLP alternative in Korea",
+    mkt_s3_label:     "Ground floor. Get in early.",
 
     how_label:        "How It Works",
     how_h2:           "Simple. Proven. Scalable.",
