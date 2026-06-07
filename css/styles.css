@@ -901,45 +901,65 @@ footer {
 }
 
 /* ── Timeline ─────────────────────────────────── */
-.timeline-phases {
+.timeline-split {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 3rem;
+  grid-template-columns: 2fr 1fr;
+  gap: 5rem;
+  align-items: center;
 }
 
-.timeline-phase {
-  padding: 2rem;
-  border-top: 2px solid var(--orange);
-  background: rgba(255,255,255,0.03);
+.timeline-start {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.timeline-phase-v {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.timeline-phase-v:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .timeline-weeks {
-  font-size: 0.68rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.12em;
   color: var(--orange);
   text-transform: uppercase;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
+.timeline-weeks span { color: var(--white); }
 
-.timeline-title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  margin-bottom: 1.2rem;
-}
-
-.timeline-phase ul { list-style: none; }
-.timeline-phase li {
-  font-size: 0.9rem;
+.timeline-phase-v ul { list-style: none; }
+.timeline-phase-v li {
+  font-size: 0.95rem;
   font-weight: 300;
-  color: rgba(255,255,255,0.7);
-  padding: 0.45rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.72);
+  padding: 0.4rem 0;
+  padding-left: 1rem;
+  position: relative;
   line-height: 1.5;
 }
-.timeline-phase li:last-child { border-bottom: none; }
+.timeline-phase-v li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--orange);
+}
+
+.timeline-image img {
+  width: 100%;
+  border-radius: 2px;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
 
 /* ── Potency big stat ─────────────────────────── */
 .potency-big-number {
@@ -1024,7 +1044,7 @@ footer {
   .stats-grid      { grid-template-columns: repeat(2, 1fr); }
   .grid-4          { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
-  .timeline-phases { grid-template-columns: 1fr; }
+  .timeline-split    { grid-template-columns: 1fr; gap: 3rem; }
 }
 
 @media (max-width: 768px) {
@@ -1055,7 +1075,8 @@ footer {
   .stats-grid        { grid-template-columns: repeat(2, 1fr); }
   .market-stats      { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .timeline-phases   { grid-template-columns: 1fr; }
+  .timeline-split    { grid-template-columns: 1fr; }
+  .timeline-image    { display: none; }
 
   .hero-drop { display: none; }
 
