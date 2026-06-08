@@ -1021,11 +1021,13 @@ footer {
 .comp-section {
   background: #fbfbfb;
   color: #111;
-  padding: 4rem 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .comp-header {
   max-width: 72rem;
   margin: 0 auto 3rem;
+  padding: 0 1.5rem;
   text-align: center;
 }
 .comp-header-h2 {
@@ -1038,9 +1040,8 @@ footer {
   display: grid;
   grid-template-columns: 7fr 5fr;
   gap: 2rem;
-  max-width: 72rem;
-  margin: 0 auto;
   align-items: start;
+  /* image bleeds to left edge */
 }
 .comp-img-col {
   position: relative;
@@ -1070,6 +1071,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-right: 3rem;
 }
 .comp-text-col h3 {
   font-size: 1.4rem;
