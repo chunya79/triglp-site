@@ -184,7 +184,7 @@ const translations = {
 
     comp_label:   "ORYGN Compensation Plan",
     comp_h2:      "Simple. Generous. Sustainable.",
-    comp_body:    "We built our compensation structure to reward real influence, genuine referrals, and long-term customer value, not loopholes or hype. Whether you're just starting out or scaling a community, the ORYGN plan helps you earn more as you help others transform.",
+    comp_body:    "We built our compensation structure to reward real influence, genuine referrals, and long-term customer value, not loopholes or hype. Every part of the plan was created to be clear, achievable, and aligned with real-world success.",
     comp_s1:      "Leadership Bonuses",
     comp_s1_body: "Rewarded as your team and influence grows",
     comp_s2:      "Customer Rewards",
@@ -392,7 +392,7 @@ const translations = {
 
     comp_label:   "ORYGN 보상 플랜",
     comp_h2:      "단순. 관대함. 지속 가능성.",
-    comp_body:    "보상 구조는 실제 영향력, 진정한 추천, 장기적인 고객 가치를 보상하기 위해 구축되었습니다. 시작 단계든 커뮤니티를 확장하든, ORYGN 플랜은 더 많이 도울수록 더 많이 벌 수 있게 합니다.",
+    comp_body:    "보상 구조는 실제 영향력, 진정한 추천, 장기적인 고객 가치를 보상하기 위해 구축되었습니다. 계획의 모든 부분은 명확하고 달성 가능하며 현실적인 성공과 일치하도록 만들어졌습니다.",
     comp_s1:      "리더십 보너스",
     comp_s1_body: "팀과 영향력이 성장함에 따라 보상",
     comp_s2:      "고객 리워드",
