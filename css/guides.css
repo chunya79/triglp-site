@@ -1,5 +1,4 @@
 .guide-page { background: #050505; color: var(--white); }
-.guide-page .nav-logo img, .guide-page .footer-logo img { display: block; width: 190px; max-width: 100%; height: auto; filter: brightness(0) invert(1); }
 .guide-hero { padding: 10rem 0 5rem; background: radial-gradient(circle at 80% 20%, rgba(254,80,0,.16), transparent 32%), #050505; }
 .guide-hero .container, .guide-main .container { max-width: 980px; }
 .guide-kicker { color: var(--orange); font-size: .78rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 1rem; }

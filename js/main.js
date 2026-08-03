@@ -18,11 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.classList.toggle('open');
       const open = navLinks.classList.contains('open');
       hamburger.setAttribute('aria-expanded', open);
+      hamburger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
       document.body.style.overflow = open ? 'hidden' : '';
     });
     navLinks.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         navLinks.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        hamburger.setAttribute('aria-label', 'Open menu');
         document.body.style.overflow = '';
       });
     });
