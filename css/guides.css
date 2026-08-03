@@ -66,14 +66,35 @@
 .use-step span { color: var(--orange); font-weight: 700; letter-spacing: .12em; }
 .use-step h3 { margin: .8rem 0 .5rem; }
 .use-step p { margin: 0; }
+.ignyt-page .product-hero .container, .ignyt-page .guide-main .container { max-width: 1120px; }
+.ignyt-page .guide-section { padding: 5rem 0; }
+.ignyt-panel { margin: 1.25rem 0; padding: 3.5rem !important; border: 1px solid rgba(255,255,255,.11); background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.012)); }
+.ignyt-panel--warm { background: radial-gradient(circle at 12% 12%, rgba(254,80,0,.14), transparent 38%), rgba(255,255,255,.02); }
+.ignyt-evidence-layout { display: grid; grid-template-columns: .75fr 1.25fr; gap: 3.5rem; align-items: center; }
+.pathway-visual { display: grid; gap: 1rem; }
+.pathway-node { position: relative; display: flex; align-items: center; gap: 1rem; min-height: 92px; padding: 1.2rem; border: 1px solid rgba(255,255,255,.13); background: #080808; }
+.pathway-node::before { content: ''; width: 46px; height: 46px; flex: 0 0 46px; border: 2px solid var(--orange); border-radius: 50%; box-shadow: inset 0 0 0 10px #080808, inset 0 0 0 12px rgba(254,80,0,.35); }
+.pathway-node strong { display: block; font-size: 1.05rem; }
+.pathway-node span { display: block; margin-top: .2rem; color: rgba(255,255,255,.56); font-size: .82rem; }
+.format-visual-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; margin-top: 2rem; }
+.format-visual-card { display: grid; grid-template-columns: 120px 1fr; gap: 1.5rem; align-items: center; padding: 1.4rem; border: 1px solid rgba(255,255,255,.13); background: #080808; }
+.format-visual-card img { width: 120px; height: 150px; object-fit: contain; }
+.format-visual-card h3 { margin: 0 0 .5rem; }
+.format-visual-card p { margin: 0; color: rgba(255,255,255,.65); line-height: 1.6; }
+.safety-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; margin-top: 2rem; }
+.safety-item { padding: 1.35rem 1.5rem; border-left: 3px solid var(--orange); background: rgba(255,255,255,.035); color: rgba(255,255,255,.72); line-height: 1.65; }
 @media (max-width: 768px) {
   .guide-hero { padding: 8rem 0 4rem; }
   .guide-grid, .resource-grid { grid-template-columns: 1fr; }
   .resource-card { min-height: 210px; }
-  .product-hero-grid, .product-family-grid, .ignyt-split, .ignyt-fact-row, .use-steps { grid-template-columns: 1fr; }
+  .product-hero-grid, .product-family-grid, .ignyt-split, .ignyt-fact-row, .use-steps, .ignyt-evidence-layout, .format-visual-grid, .safety-grid { grid-template-columns: 1fr; }
   .product-hero-grid { gap: 2.5rem; }
   .product-family-card { min-height: 280px; }
   .product-card-media { height: 190px; }
   .ignyt-hero-media { min-height: 390px; }
   .ignyt-split { gap: 2rem; }
+  .ignyt-panel { padding: 2rem !important; margin: .75rem 0; }
+  .ignyt-page .guide-section { padding: 3.5rem 0; }
+  .format-visual-card { grid-template-columns: 86px 1fr; }
+  .format-visual-card img { width: 86px; height: 115px; }
 }
