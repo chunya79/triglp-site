@@ -1,0 +1,42 @@
+.guide-page { background: #050505; color: var(--white); }
+.guide-page .nav-logo img, .guide-page .footer-logo img { display: block; width: 190px; max-width: 100%; height: auto; filter: brightness(0) invert(1); }
+.guide-hero { padding: 10rem 0 5rem; background: radial-gradient(circle at 80% 20%, rgba(254,80,0,.16), transparent 32%), #050505; }
+.guide-hero .container, .guide-main .container { max-width: 980px; }
+.guide-kicker { color: var(--orange); font-size: .78rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 1rem; }
+.guide-hero h1 { max-width: 900px; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.02; }
+.guide-lead { max-width: 780px; margin-top: 1.5rem; color: rgba(255,255,255,.76); font-size: clamp(1.05rem, 2vw, 1.25rem); line-height: 1.75; }
+.guide-updated { margin-top: 1.25rem; color: rgba(255,255,255,.48); font-size: .82rem; }
+.guide-main { padding-bottom: 7rem; }
+.guide-section { padding: 4rem 0; border-top: 1px solid rgba(255,255,255,.1); }
+.guide-section h2 { margin-bottom: 1.3rem; font-size: clamp(1.8rem, 4vw, 3rem); }
+.guide-section h3 { margin: 1.8rem 0 .7rem; font-size: 1.25rem; }
+.guide-section p, .guide-section li { color: rgba(255,255,255,.76); line-height: 1.8; }
+.guide-section ul, .guide-section ol { margin: 1.2rem 0 0 1.3rem; }
+.guide-note { margin: 1.7rem 0; padding: 1.35rem 1.5rem; border-left: 3px solid var(--orange); background: rgba(254,80,0,.08); }
+.guide-note strong { color: var(--white); }
+.guide-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
+.guide-card { border: 1px solid rgba(255,255,255,.12); padding: 1.5rem; background: rgba(255,255,255,.025); }
+.guide-card h3 { margin-top: 0; }
+.guide-card a, .guide-section a { color: var(--orange); text-underline-offset: 3px; }
+.guide-table-wrap { overflow-x: auto; margin-top: 1.8rem; }
+.guide-table { width: 100%; border-collapse: collapse; min-width: 680px; }
+.guide-table th, .guide-table td { text-align: left; vertical-align: top; padding: 1rem; border-bottom: 1px solid rgba(255,255,255,.12); line-height: 1.6; }
+.guide-table th { color: var(--orange); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; }
+.guide-table td { color: rgba(255,255,255,.75); }
+.guide-table td:first-child { color: var(--white); font-weight: 500; }
+.guide-sources { list-style: none; margin-left: 0 !important; }
+.guide-sources li { padding: .8rem 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+.guide-cta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
+.resource-section { background: #090909; }
+.resource-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2.5rem; }
+.resource-card { display: flex; flex-direction: column; padding: 1.7rem; min-height: 250px; border: 1px solid rgba(255,255,255,.12); color: var(--white); text-decoration: none; transition: border-color .2s, transform .2s; }
+.resource-card:hover { border-color: var(--orange); transform: translateY(-3px); }
+.resource-card span { color: var(--orange); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; }
+.resource-card h3 { margin: 1rem 0; }
+.resource-card p { color: rgba(255,255,255,.65); }
+.resource-card strong { margin-top: auto; color: var(--orange); }
+@media (max-width: 768px) {
+  .guide-hero { padding: 8rem 0 4rem; }
+  .guide-grid, .resource-grid { grid-template-columns: 1fr; }
+  .resource-card { min-height: 210px; }
+}
