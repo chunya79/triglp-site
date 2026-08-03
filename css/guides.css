@@ -18,6 +18,7 @@
 .guide-card { border: 1px solid rgba(255,255,255,.12); padding: 1.5rem; background: rgba(255,255,255,.025); }
 .guide-card h3 { margin-top: 0; }
 .guide-card a, .guide-section a { color: var(--orange); text-underline-offset: 3px; }
+.guide-section .btn-primary, .product-family-card .btn-primary { color: var(--white); }
 .guide-table-wrap { overflow-x: auto; margin-top: 1.8rem; }
 .guide-table { width: 100%; border-collapse: collapse; min-width: 680px; }
 .guide-table th, .guide-table td { text-align: left; vertical-align: top; padding: 1rem; border-bottom: 1px solid rgba(255,255,255,.12); line-height: 1.6; }
@@ -35,8 +36,25 @@
 .resource-card h3 { margin: 1rem 0; }
 .resource-card p { color: rgba(255,255,255,.65); }
 .resource-card strong { margin-top: auto; color: var(--orange); }
+.product-hero { padding: 10rem 0 5rem; background: radial-gradient(circle at 78% 24%, rgba(254,80,0,.2), transparent 34%), #050505; }
+.product-hero .container { max-width: 1120px; }
+.product-hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 4rem; align-items: center; }
+.product-hero h1 { font-size: clamp(3rem, 7vw, 6.5rem); line-height: .95; }
+.product-format { border: 1px solid rgba(255,255,255,.14); padding: 2rem; background: rgba(255,255,255,.035); }
+.product-format strong { display: block; color: var(--orange); font-size: 3rem; line-height: 1; }
+.product-format span { display: block; margin-top: .75rem; color: rgba(255,255,255,.7); }
+.product-family { background: #050505; }
+.product-family-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin-top: 2.5rem; }
+.product-family-card { display: flex; flex-direction: column; min-height: 330px; padding: 2.2rem; border: 1px solid rgba(255,255,255,.14); background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.01)); }
+.product-family-card .guide-kicker { margin-bottom: 1.25rem; }
+.product-family-card h3 { font-size: clamp(2rem, 4vw, 3rem); }
+.product-family-card p { color: rgba(255,255,255,.68); line-height: 1.7; }
+.product-family-card .guide-cta { margin-top: auto; }
 @media (max-width: 768px) {
   .guide-hero { padding: 8rem 0 4rem; }
   .guide-grid, .resource-grid { grid-template-columns: 1fr; }
   .resource-card { min-height: 210px; }
+  .product-hero-grid, .product-family-grid { grid-template-columns: 1fr; }
+  .product-hero-grid { gap: 2.5rem; }
+  .product-family-card { min-height: 280px; }
 }
