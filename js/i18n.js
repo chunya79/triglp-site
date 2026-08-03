@@ -8,7 +8,7 @@ const translations = {
 
     hero_eyebrow:  "ORYGN triGLP™",
     hero_h1a:      "ORYGN triGLP Salmon Peptides.",
-    hero_h1b:      "Independent New Zealand Guide.",
+    hero_h1b:      "Ingredients, Research & Ordering.",
     hero_sub:      "Understand the ingredients, cited research, intended use and important limits before ordering triGLP drops.",
     hero_cta:      "Order Now",
     hero_secondary:"See How It Works",
@@ -53,7 +53,7 @@ const translations = {
     res_s4:        "87%",
     res_s4_label:  "Energy Improvement",
     res_s4_sub:    "reported within 4 weeks",
-    res_disclaimer:"Based on published clinical studies of the triGLP compound. *Unpublished study. Data on file.",
+    res_disclaimer:"Figures shown above are reported by ORYGN from research concerning salmon-peptide ingredients. The energy figure is described by ORYGN as unpublished data on file. Ingredient research may not predict outcomes from finished triGLP.",
 
     pur_label:     "Purity Anchor",
     pur_h2a:       "Purity Begins",
@@ -65,10 +65,10 @@ const translations = {
     pur_p4:        ">99% protein · >35% type I & III collagen",
 
     pot_label:     "Potency Anchor",
-    pot_h2a:       "+67.5% More Absorbed.",
-    pot_h2b:       "Faster Than Whey.",
+    pot_h2a:       "Comparative Absorption",
+    pot_h2b:       "Research.",
     pot_body:      "ORYGN cites comparative research reporting greater absorption of enzymatically hydrolysed salmon protein than highly hydrolysed whey protein over two hours. That ingredient comparison does not establish the speed or size of a health outcome from finished triGLP drops.",
-    pot_p1:        "+67.5% more absorption than whey protein hydrolysate",
+    pot_p1:        "Compared with highly hydrolysed whey protein over two hours",
     pot_p2:        "Higher bioavailability & better digestibility",
     pot_p3:        "Light stomach feel, gentle on the gut",
     pot_p4:        "Sublingual delivery for rapid uptake",
@@ -87,7 +87,7 @@ const translations = {
     ord_contact:   "Get in Touch",
 
     footer_disclaimer: "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
-    footer_rights:     "Independent ORYGN distributor: Embrace Health, New Zealand. This is not ORYGN's corporate website. All rights reserved.",
+    footer_rights:     "Independent ORYGN distributor site operated by Embrace Health. This is not ORYGN's corporate website. All rights reserved.",
     footer_opp:        "Business Opportunity",
     footer_product:    "triGLP",
     footer_contact:    "Contact",
@@ -216,7 +216,7 @@ const translations = {
 
     hero_eyebrow:  "ORYGN triGLP™",
     hero_h1a:      "ORYGN triGLP 연어 펩타이드.",
-    hero_h1b:      "뉴질랜드 독립 안내서.",
+    hero_h1b:      "성분, 연구 및 주문 안내.",
     hero_sub:      "triGLP 드롭을 주문하기 전에 성분, 인용 연구, 사용 목적 및 중요한 한계를 확인하세요.",
     hero_cta:      "지금 주문하기",
     hero_secondary:"작동 원리 알아보기",
@@ -261,7 +261,7 @@ const translations = {
     res_s4:        "87%",
     res_s4_label:  "에너지 개선",
     res_s4_sub:    "4주 이내 보고",
-    res_disclaimer:"triGLP 성분의 발표된 임상 연구 기반. *미발표 연구. 데이터 보관 중.",
+    res_disclaimer:"위 수치는 ORYGN이 연어 펩타이드 성분 관련 연구를 바탕으로 제시한 것입니다. 에너지 수치는 ORYGN이 보관 중인 미발표 자료로 설명합니다. 성분 연구가 완제품 triGLP의 결과를 예측하는 것은 아닙니다.",
 
     pur_label:     "순도",
     pur_h2a:       "순도는 근원에서",
@@ -273,10 +273,10 @@ const translations = {
     pur_p4:        ">99% 단백질 · >35% 제1형 & 제3형 콜라겐",
 
     pot_label:     "효능",
-    pot_h2a:       "+67.5% 더 많은 흡수.",
-    pot_h2b:       "유청보다 빠르게.",
+    pot_h2a:       "비교 흡수",
+    pot_h2b:       "연구.",
     pot_body:      "ORYGN은 효소 가수분해 연어 단백질이 2시간 동안 고가수분해 유청 단백질보다 더 많이 흡수됐다고 보고한 비교 연구를 인용합니다. 이 성분 비교만으로 완제품 triGLP 드롭의 건강 효과가 얼마나 빠르거나 큰지는 입증되지 않습니다.",
-    pot_p1:        "유청 단백질 가수분해물보다 67.5% 더 많은 흡수",
+    pot_p1:        "2시간 동안 고가수분해 유청 단백질과 비교",
     pot_p2:        "높은 생체이용률 & 더 나은 소화율",
     pot_p3:        "가벼운 위 느낌, 장에 부드러움",
     pot_p4:        "빠른 흡수를 위한 설하 전달",
@@ -295,7 +295,7 @@ const translations = {
     ord_contact:   "문의하기",
 
     footer_disclaimer: "* 이 진술은 미국 식품의약국(FDA)에 의해 평가되지 않았습니다. 이 제품은 질병을 진단, 치료, 완치 또는 예방하기 위한 것이 아닙니다.",
-    footer_rights:     "뉴질랜드 Embrace Health는 ORYGN의 독립 유통업체이며, 이 사이트는 ORYGN 본사 웹사이트가 아닙니다. 모든 권리 보유.",
+    footer_rights:     "이 사이트는 Embrace Health가 운영하는 ORYGN 독립 유통업체 사이트이며 ORYGN 본사 웹사이트가 아닙니다. 모든 권리 보유.",
     footer_opp:        "비즈니스 기회",
     footer_product:    "triGLP",
     footer_contact:    "문의",
