@@ -49,8 +49,22 @@ document.addEventListener('DOMContentLoaded', () => {
   /* Video autoplay fallback */
   const video = document.querySelector('.hero-video');
   if (video) {
+    video.defaultMuted = true;
     video.muted = true;
-    video.play().catch(() => {});
+    video.setAttribute('muted', '');
+    const startTime = Number(video.dataset.startTime || 0);
+    const playFromStart = () => {
+      if (startTime > 0 && video.currentTime < startTime) video.currentTime = startTime;
+      video.play().catch(() => {});
+    };
+    if (video.readyState >= 1) playFromStart();
+    else video.addEventListener('loadedmetadata', playFromStart, { once: true });
+    if (startTime > 0) {
+      video.addEventListener('ended', () => {
+        video.currentTime = startTime;
+        video.play().catch(() => {});
+      });
+    }
   }
 
   /* FAQ accordion */

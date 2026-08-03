@@ -652,6 +652,22 @@ footer {
   background: radial-gradient(ellipse at 60% 50%, rgba(254,80,0,0.08) 0%, transparent 70%);
 }
 
+.hero-opportunity .hero-video {
+  opacity: 0.82;
+}
+
+.hero-opportunity .hero-video-wrap::after {
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.38) 52%, rgba(0,0,0,0.12) 100%),
+    linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, rgba(0,0,0,0.48) 100%);
+}
+
+.hero-opportunity .hero-content {
+  padding: 2.5rem;
+  border-left: 3px solid var(--orange);
+  background: #050505;
+}
+
 .market-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1357,6 +1373,10 @@ footer {
     align-items: center;
     gap: 2.5rem;
     z-index: 99;
+  }
+
+  .hero-opportunity .hero-content {
+    padding: 1.5rem;
   }
   .nav-links.open a {
     font-size: 1.1rem;
