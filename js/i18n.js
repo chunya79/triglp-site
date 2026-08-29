@@ -6,10 +6,10 @@ const translations = {
     nav_opportunity: "Business Opportunity",
     nav_order:       "Order Now",
 
-    hero_eyebrow:  "ORYGN triGLP™",
-    hero_h1a:      "ORYGN triGLP Salmon Peptides.",
-    hero_h1b:      "Ingredients, Research & Ordering.",
-    hero_sub:      "Understand the ingredients, cited research, intended use and important limits before ordering triGLP drops.",
+    hero_eyebrow:  "triGLP Wellness",
+    hero_h1a:      "triGLP Wellness:",
+    hero_h1b:      "ORYGN Drops, Research & Ordering.",
+    hero_sub:      "The independent triGLP Wellness guide to ORYGN drops, ingredients, cited research, safe use and international ordering through Embrace Health.",
     hero_cta:      "Order Now",
     hero_secondary:"See How It Works",
 
@@ -87,7 +87,7 @@ const translations = {
     ord_contact:   "Get in Touch",
 
     footer_disclaimer: "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
-    footer_rights:     "Independent ORYGN distributor site operated by Embrace Health. This is not ORYGN's corporate website. All rights reserved.",
+    footer_rights:     "triGLP Wellness is an independent ORYGN distributor site operated by Embrace Health. This is not ORYGN's corporate website. All rights reserved.",
     footer_opp:        "Business Opportunity",
     footer_product:    "triGLP",
     footer_contact:    "Contact",
