@@ -9,7 +9,7 @@ const translations = {
     hero_eyebrow:  "triGLP Wellness",
     hero_h1a:      "triGLP Wellness:",
     hero_h1b:      "ORYGN Drops, Research & Ordering.",
-    hero_sub:      "The independent triGLP Wellness guide to ORYGN drops, ingredients, cited research, safe use and international ordering through Embrace Health.",
+    hero_sub:      "A New Zealand guide to ORYGN drops, ingredients, cited research and safe use, operated by Auckland-based Embrace Health with local product support and current ordering information.",
     hero_cta:      "Order Now",
     hero_secondary:"See How It Works",
 
